@@ -38,6 +38,14 @@ img {
 body {
     background-color: var(--primary-bg-color);
     padding: 20px;
+    min-height: 100vh;
+    display: grid;
+}
+
+@media (min-width: 768px) {
+    body {
+        place-items: center;
+    }
 }
 
 .card {
